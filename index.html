@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora para Fechamento de Caixa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <div class="icone">
+      
+    </div>
+    <form class="formulario">
+      <label for="valorInput">Digite o valor do comprovante e tecle Enter</label>
+      <br>
+      <input type="number" id="valorInput">
+    </form>
+
+    <div class="comprovantes-e-resultado">
+      <section class="comprovantes-adicionados">
+        <h2>Comprovantes Adicionados</h2>
+        <ul id="listaDeComprovantes"></ul>
+      </section>
+      <section class="resultado">
+        <h2>Resultado</h2>
+        <div class="dados">
+          <p id="soma">Soma: R$ 0.00</p>
+          <p id="total">Total de comprovantes digitados: 0</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
