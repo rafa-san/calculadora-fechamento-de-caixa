@@ -44,5 +44,5 @@ function atualizarDados() {
   let totalComprovantes = document.getElementById("total");
 
   somatorio.textContent = "Soma: R$ " + soma.toFixed(2);
-  totalComprovantes.textContent = "Total de comprovantes digitados: " + totalComprovantesDigitados;
+  totalComprovantes.textContent = "Total de comprovantes: " + totalComprovantesDigitados;
 }
