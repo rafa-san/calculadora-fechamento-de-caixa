@@ -15,12 +15,17 @@ function adicionarComprovante() {
   let comprovanteInput = document.getElementById("valorInput");
   let comprovante = Number(comprovanteInput.value); // Ler o valor do input e converter para número
 
-  if (!isNaN(comprovante)) { // Para não aceitar letras ou símbolos
+  if (!isNaN(comprovante)) { // Para não aceitar letras ou símbolos. Redundante, talvez??
     comprovantes.unshift(comprovante); // Adicionar o comprovante à array
     comprovanteInput.value = ""; // Limpar o input
 
     soma += comprovante; // Fazer a soma
     totalComprovantesDigitados++; // Incrementar a quantidade total de comprovantes digitados
+
+    if (comprovante === 0) {
+      alert('Você digitou um comprovante no valor de R$ 0,00. \nA calculadora não vai adicioná-lo ao total de comprovantes digitados, OK?');
+      totalComprovantesDigitados--;
+    }
 
     atualizarLista(); // Atualizar a lista de comprovantes na página
     atualizarDados(); // Atualizar as informações de soma e quantidade
