@@ -23,7 +23,7 @@ function adicionarComprovante() {
     totalComprovantesDigitados++; // Incrementar a quantidade total de comprovantes digitados
 
     if (comprovante === 0) {
-      alert('Você digitou um comprovante no valor de R$ 0,00. \nA calculadora não vai adicioná-lo ao total de comprovantes digitados, OK?');
+      alert('Comprovantes no valor de R$ 0,00 não serão adicionados ao total de comprovantes digitados.');
       totalComprovantesDigitados--;
     }
 
