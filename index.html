@@ -1,36 +1,49 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Calculadora para Fechamento de Caixa</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora para Fechamento de Caixa</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous" defer></script>
+    <script src="script.js" defer></script>
+  </head>
 
-<body>
-  <main>
-    <form class="formulario">
-      <label for="valorInput">Digite o valor do comprovante e tecle <kbd>Enter</kbd></label>
-      <br>
-      <input type="number" id="valorInput">
-    </form>
+  <body>
+    <main>
+      <form class="formulario">
+        <label for="valorInput">Digite o valor do comprovante e tecle <kbd>Enter</kbd></label>
+        <br>
+        <input type="number" id="valorInput">
+      </form>
 
-    <div class="comprovantes-e-resultado">
-      <section class="comprovantes-adicionados">
-        <h2>Comprovantes Adicionados</h2>
-        <ul id="listaDeComprovantes"></ul>
+      <div class="comprovantes-e-resultado">
+        <section class="comprovantes-adicionados">
+          <h2>Comprovantes Adicionados</h2>
+          <ul id="listaDeComprovantes"></ul>
+        </section>
+        <section class="resultado">
+          <h2>Resultado</h2>
+          <div class="dados">
+            <p id="soma">Soma: R$ 0.00</p>
+            <p id="total">Total de comprovantes: 0</p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>Desenvolvido por Rafa Santana</p>
+
+      <section class="contato">
+        <a href="https://github.com/rafa-san" target="_blank" id="profile-link">
+          <i class="fa brands fa-github"> <span class="texto-icone">GitHub</span></i>
+        </a>
+        <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+          <i class="fa brands fa-linkedin"> <span class="texto-icone">LinkedIn</span></i>
+        </a>
       </section>
-      <section class="resultado">
-        <h2>Resultado</h2>
-        <div class="dados">
-          <p id="soma">Soma: R$ 0.00</p>
-          <p id="total">Total de comprovantes: 0</p>
-        </div>
-      </section>
-    </div>
-  </main>
-
-  <script src="script.js"></script>
-</body>
+    </footer>
+  
+  </body>
 </html>
