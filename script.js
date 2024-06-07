@@ -4,6 +4,7 @@ let comprovantes = []; // Array para armazenar os comprovantes
 
 // Adicionar evento de 'keydown' ao campo de input
 let comprovanteInput = document.getElementById("valorInput");
+comprovanteInput.focus();
 comprovanteInput.addEventListener("keydown", function(event) {
   if (event.key === "Enter") {
     adicionarComprovante();
