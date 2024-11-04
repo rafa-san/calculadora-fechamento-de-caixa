@@ -1,4 +1,6 @@
-# Calculadora para Fechamento de Caixa
+# Projeto Próprio
+
+## Calculadora para Fechamento de Caixa
 
 Esse projeto nasceu de uma situação real, dentro da rotina de uma loja de comércio varejista.
 
@@ -31,4 +33,3 @@ Sobre a parte técnica do programa, ele está separado em três partes:
 2. CSS: Trabalhei com Flexbox e deixei a página com layout responsivo.
 
 3. JavaScript: De forma bem resumida, trabalhei com array, funcões, *control flow* (condicionais e loops) e a interação entre JavaScript e HTML.
-
