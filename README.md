@@ -35,18 +35,18 @@ Essa solução simplificou significativamente a rotina do fechamento de caixa, t
 
 ### Ferramentas
 <div style="display:flex;">
-  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/GitHub-404040?style=for-the-badge&logo=github&logoColor=white">
 </div>
 
 ## 4️⃣ Créditos
-Agradeço imensamente às plataformas de ensino abaixo pelos recursos educacionais gratuitos e de qualidade que tornaram este projeto possível. <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Hugging%20Face.png" alt="Hugging Face" width="25" height="25" style="vertical-align:text-bottom;" /> 
-- <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a>
-- <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+Agradeço imensamente às plataformas de ensino abaixo pelos recursos educacionais gratuitos e de qualidade que tornaram este projeto possível.
+- <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs 🔗</a>
+- <a href="https://www.w3schools.com/" target="_blank">W3Schools 🔗</a>
 
 ## 5️⃣ Licença
 Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
 
 ---
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" height="25" style="vertical-align: text-bottom;" /> Gostou do projeto? Deixe uma estrelinha <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" height="25" style="vertical-align: text-bottom;" />
+### <div align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" height="25" style="vertical-align:text-bottom;" /> Gostou do projeto? Deixe uma estrelinha <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" height="25" style="vertical-align:text-bottom;" /></div>
 
