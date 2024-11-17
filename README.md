@@ -1,35 +1,52 @@
-# Projeto Próprio
+![Badge](https://img.shields.io/badge/PROJETO-PRÓPRIO-FF6F61?style=for-the-badge)&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" />
 
-## Calculadora para Fechamento de Caixa
+# Calculadora para Fechamento de Caixa
 
-Esse projeto nasceu de uma situação real, dentro da rotina de uma loja de comércio varejista.
+## 1️⃣ Apresentação
+Este projeto foi inspirado em uma necessidade real da rotina da livraria onde trabalho.
 
-Ao fechar o caixa, os responsáveis pelo fechamento precisavam seguir os seguintes passos:
+O fechamento do caixa exigia um processo manual que envolvia os seguintes passos:
 
-1. Separar os comprovantes dos cartões por bandeiras: Mastercard, Redecard (Mastercard na função débito), Visa crédito, Visa Electron (Visa na função débito) e etc.
-2. Somar os valores dos comprovantes dos grupos acima: Valor total dos comprovantes Mastercard, Redecard, Visa Crédito, Visa Electron e etc.
-3. Contar quantos comprovantes cada bandeira possui: Mastercard (somatório: R$ 4.000,00 | número de comprovantes: 8) e etc.
-4. Em caso de dúvida em relação aos resultados (soma dos valores e/ou número de comprovantes), repetir os passos 2 e/ou 3.
+1. Agrupar os comprovantes dos cartões por bandeira (Mastercard, Redecard, Visa Crédito, Visa Electron, etc.).
+2. Calcular o valor total para cada bandeira. Exemplo: Mastercard (R$ 4.000,00), Visa Crédito (R$ 2.500,00), etc.
+3. Contar a quantidade de comprovantes em cada grupo. Exemplo: Mastercard (8 comprovantes), Visa Crédito (5 comprovantes), etc.
+4. Repetir os cálculos em caso de discrepância ou dúvida.
 
-Ao desenvolver esse programa, meu objetivo foi simplificar o procedimento, que na prática passou a ter somente dois passos:
+Esses passos eram demorados e propensos a erros, especialmente em dias de maior movimento.
+
+## 2️⃣ Meu Objetivo
+Desenvolver uma calculadora que automatizasse esse processo, reduzindo o trabalho a apenas dois passos simples:
 
 1. Separar os comprovantes por bandeiras;
-2. Digitar os valores.
+2. Inserir os valores.
 
 E pronto!
 
-O programa irá calcular a soma dos valores e quantos comprovantes foram digitados e, além disso, em caso de dúvida em relação ao resultado, os comprovantes adicionados aparecem em forma de lista, para que seja possível fazer uma rápida e prática conferência visual, evitando contar tudo novamente somente para checar se os valores estão corretos.
+O programa realiza ao mesmo tempo a soma dos valores digitados e a contagem dos comprovantes. Por fim, criei uma lista detalhada dos valores inseridos, permitindo uma conferência visual rápida em caso de dúvidas.
 
-O projeto concluído ficou assim:
+Essa solução simplificou significativamente a rotina do fechamento de caixa, tornando-a mais eficiente e confiável.
 
-![Calculadora](img.jpg)
+## 3️⃣ Tecnologias Utilizadas
 
-***
+### Linguagens
+<div style="display:flex;">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</div>
 
-Sobre a parte técnica do programa, ele está separado em três partes:
+### Ferramentas
+<div style="display:flex;">
+  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+</div>
 
-1. HTML: Basicamente, criei um input para receber os valores e duas divs, uma para exibir os comprovantes adicionados e outra para exibir os resultados (somatório dos valores e a contagem dos comprovantes digitados).
+## 4️⃣ Créditos
+Agradeço imensamente às plataformas de ensino abaixo pelos recursos educacionais gratuitos e de qualidade que tornaram este projeto possível. <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Hugging%20Face.png" alt="Hugging Face" width="25" height="25" style="vertical-align:text-bottom;" /> 
+- <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a>
+- <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
 
-2. CSS: Trabalhei com Flexbox e deixei a página com layout responsivo.
+## 5️⃣ Licença
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
 
-3. JavaScript: De forma bem resumida, trabalhei com array, funcões, *control flow* (condicionais e loops) e a interação entre JavaScript e HTML.
+---
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" height="25" style="vertical-align: text-bottom;" /> Gostou do projeto? Deixe uma estrelinha <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" height="25" style="vertical-align: text-bottom;" />
+
