@@ -14,7 +14,7 @@ O fechamento do caixa exigia um processo manual que envolvia os seguintes passos
 
 Esses passos eram demorados e propensos a erros, especialmente em dias de maior movimento.
 
-## 2️⃣ Meu Objetivo
+## 2️⃣ Objetivo
 Desenvolver uma calculadora que automatizasse esse processo, reduzindo o trabalho a apenas dois passos simples:
 
 1. Separar os comprovantes por bandeiras;
