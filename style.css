@@ -135,8 +135,8 @@ footer p {
   }
 
   .comprovantes-e-resultado {
-    max-width: 900px;
     flex-direction: row;
+    max-width: 900px;
   }
 
   .comprovantes-adicionados,
