@@ -2,29 +2,27 @@
 
 # Calculadora para Fechamento de Caixa
 
-## 1️⃣ Apresentação
-Este projeto foi inspirado em uma necessidade real da rotina da livraria onde trabalho.
+## 1️⃣ Objetivo
+Criar uma calculadora para agilizar, simplificar e garantir maior precisão no fechamento de caixa de uma loja de varejo.
 
-O fechamento do caixa exigia um processo manual que envolvia os seguintes passos:
+## 2️⃣ Descrição
+Este projeto foi inspirado em uma necessidade real. 
+
+A rotina de fechamento de caixa de uma loja exigia um processo manual que, além de trabalhoso, era suscetível a erros, especialmente em períodos de grande movimento. As etapas incluíam:
 
 1. Agrupar os comprovantes dos cartões por bandeira (Mastercard, Redecard, Visa Crédito, Visa Electron, etc.).
 2. Calcular o valor total para cada bandeira. Exemplo: Mastercard (R$ 4.000,00), Visa Crédito (R$ 2.500,00), etc.
 3. Contar a quantidade de comprovantes em cada grupo. Exemplo: Mastercard (8 comprovantes), Visa Crédito (5 comprovantes), etc.
-4. Repetir os cálculos em caso de discrepância ou dúvida.
+4. Refazer os cálculos em caso de divergências ou dúvidas.
 
-Esses passos eram demorados e propensos a erros, especialmente em dias de maior movimento.
-
-## 2️⃣ Objetivo
-Desenvolver uma calculadora que automatizasse esse processo, reduzindo o trabalho a apenas dois passos simples:
+Com a implementação desta calculadora, o processo foi simplificado e otimizado, reduzindo-o a dois passos básicos:
 
 1. Separar os comprovantes por bandeiras;
 2. Inserir os valores.
 
-E pronto!
+E pronto.
 
-O programa realiza ao mesmo tempo a soma dos valores digitados e a contagem dos comprovantes. Por fim, criei uma lista detalhada dos valores inseridos, permitindo uma conferência visual rápida em caso de dúvidas.
-
-Essa solução simplificou significativamente a rotina do fechamento de caixa, tornando-a mais eficiente e confiável.
+A calculadora realiza automaticamente a soma dos valores e a contagem dos comprovantes. Além disso, gera uma lista dos valores inseridos, permitindo uma rápida conferência visual em caso de dúvida, tornando o fechamento de caixa mais prático.
 
 ## 3️⃣ Tecnologias Utilizadas
 
